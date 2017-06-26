@@ -49,6 +49,16 @@ class DataStreamWindowBS(IDataStreamWindow):
                 chart.plot.setDownsampling(mode=chart.downsampling)
             if chart.clipToView:
                 chart.plot.setClipToView(True)
+            if chart.left_label:
+                if chart.left_label_units:
+                    chart.plot.setLabel('left', chart.left_label, chart.left_label_units)
+                else:
+                    chart.plot.setLabel('left', chart.left_label)
+            if chart.bottom_label:
+                if chart.bottom_label_units:
+                    chart.plot.setLabel('bottom', chart.bottom_label, chart.bottom_label_units)
+                else:
+                    chart.plot.setLabel('bottom', chart.bottom_label)
             chart.curve = chart.plot.plot()
             if chart.line_color:
                 chart.curve.setPen(chart.line_color)

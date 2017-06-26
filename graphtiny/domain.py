@@ -12,6 +12,10 @@ class Chart(object):
         self.ptr = 0
         self.x = np.zeros(9000)
         self.y = np.zeros(9000)
+        self.left_label = ''
+        self.left_label_units = ''
+        self.bottom_label = ''
+        self.bottom_label_units = ''
 
 
 class DataStreamWindow(object):
