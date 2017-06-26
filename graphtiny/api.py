@@ -23,11 +23,3 @@ class IDataStreamWindow(metaclass=ABCMeta):
         Displays the window with its graphic content
         :param window: A DataStreamWindow object
         """
-
-    @abstractmethod
-    def __raise_thread_with_window(self, window: DataStreamWindow) -> None:
-        """
-        Run parallel thread to keep the window alive
-        :param window: A DataStreamWindow object
-        :return:
-        """
