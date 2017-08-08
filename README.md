@@ -40,6 +40,8 @@ for i in range(5, 200):
 
 ![](https://camo.githubusercontent.com/b0bb052ea60d05e5401072cd5f557aaaaab43703/68747470733a2f2f6d656469612e67697068792e636f6d2f6d656469612f78543339446d6b3136726a724934757544362f67697068792e676966)
 
+<br>
+<br>
 
 You can display multiple charts per window:
 ```python
@@ -59,9 +61,11 @@ for i in range(5, 200):
     chart_bs.set_data_stream(chart3, i, random.randrange(0, i))
     chart_bs.set_data_stream(chart4, i, random.randrange(0, i))
 ```
-
-
+  
 ![](https://camo.githubusercontent.com/483aa8b5f10db347b54cd20bc815d0857c2fb511/68747470733a2f2f6d656469612e67697068792e636f6d2f6d656469612f785433394354556d49395638324b4c78664f2f67697068792e676966)
+
+<br>
+<br>
 
 You can change the colors:
 ```python
