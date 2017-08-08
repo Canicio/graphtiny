@@ -1,6 +1,6 @@
 # GraphTiny
 
-A Python library that lets you display graphics in streaming, simply and easily. Especially suitable for scientific use.
+A Python library that lets you display graphs in streaming, simply and easily. Especially suitable for scientific use.
 <br>
 <br>
 It is an abstraction layer for the [PyQtGraph](https://github.com/pyqtgraph/pyqtgraph) library.
@@ -21,7 +21,7 @@ pip install graphtiny
 
 ## Examples
 
-**Display graphic in streaming with random values:**
+**Display graph in streaming with random values:**
 ```python
 import random
 from time import sleep
@@ -44,7 +44,7 @@ for i in range(5, 200):
 <br>
 <br>
 
-**You can display multiple charts per window:**
+**You can display multiple graphs per window:**
 ```python
 window = DataStreamWindow()
 window.columns_display = 2
