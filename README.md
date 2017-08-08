@@ -38,7 +38,8 @@ for i in range(5, 200):
     chart_bs.set_data_stream(chart1, i, random.randrange(0, i))
 ```
 
-![Graph](resources/graph_simple.mp4)
+![Alt text](resources/graph_simple.mp4)
+
 
 You can display multiple charts per window:
 ```python
@@ -59,7 +60,8 @@ for i in range(5, 200):
     chart_bs.set_data_stream(chart4, i, random.randrange(0, i))
 ```
 
-![Graph](resources/graph_multi.mp4)
+
+![Alt text](resources/graph_multi.mp4)
 
 You can change the colors:
 ```python
@@ -70,7 +72,8 @@ chart1 = Chart()
 chart1.line_color = 'g'  # green
 ```
 
-![Graph](resources/graph_colors.mp4)
+![Alt text](resources/graph_colors.mp4)
+
 
 ## License
 [MIT](LICENSE) (Massachusetts Institute of Technology)
