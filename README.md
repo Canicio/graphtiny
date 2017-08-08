@@ -39,7 +39,7 @@ for i in range(5, 200):
 ```
 
 ![demo1](resources/graph_simple.mp4)
-![demo11](resources/graph_simple.gif)
+![demo11](resources/img.jpg)
 
 
 You can display multiple charts per window:
