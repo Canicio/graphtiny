@@ -21,7 +21,7 @@ pip install graphtiny
 
 ## Examples
 
-Display graphic in streaming with random values:
+**Display graphic in streaming with random values:**
 ```python
 import random
 from time import sleep
@@ -44,7 +44,7 @@ for i in range(5, 200):
 <br>
 <br>
 
-You can display multiple charts per window:
+**You can display multiple charts per window:**
 ```python
 window = DataStreamWindow()
 window.columns_display = 2
@@ -68,7 +68,7 @@ for i in range(5, 200):
 <br>
 <br>
 
-You can change the colors:
+**You can change the colors:**
 ```python
 window = DataStreamWindow()
 window.background_color = 'k'  # black
