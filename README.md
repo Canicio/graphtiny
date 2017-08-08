@@ -39,7 +39,7 @@ for i in range(5, 200):
 ```
 
 ![demo1](resources/graph_simple.mp4)
-![demo11](resources/img.jpg)
+![demo11](https://camo.githubusercontent.com/84b491d4ead6734818b6205b8e99b21be35c43d5/68747470733a2f2f6d656469612e67697068792e636f6d2f6d656469612f7854333943597431493562544843486c62712f67697068792e676966)
 
 
 You can display multiple charts per window:
