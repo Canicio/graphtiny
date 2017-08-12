@@ -13,6 +13,10 @@ setup(name='Graphtiny',
       license='MIT (Massachusetts Institute of Technology)',
       packages=['graphtiny'],
       # packages=find_packages(),
+      install_requires=[
+          'PyQt5',
+          'pyqtgraph',
+      ],
       keywords=['graph', 'ui', 'chart', 'plot'],
       classifiers=[],
       )
