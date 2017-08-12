@@ -11,8 +11,7 @@ It is an abstraction layer for the [PyQtGraph](https://github.com/pyqtgraph/pyqt
 
 ## Requirements
 * Python 3.5+
-* PyQt 4.8+ or PySide
-* PyQtGraph
+
 
 ## Install
 ```console
