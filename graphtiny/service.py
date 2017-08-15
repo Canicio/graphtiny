@@ -16,7 +16,7 @@ class FuncThread(threading.Thread):
         self._t(*self._a)
 
 
-class ChartBS(IChart):
+class ChartService(IChart):
 
     def set_data_stream(self, chart: Chart, x, y) -> None:
         chart.x[chart.ptr] = x
@@ -24,7 +24,7 @@ class ChartBS(IChart):
         chart.ptr += 1
 
 
-class DataStreamWindowBS(IDataStreamWindow):
+class DataStreamWindowService(IDataStreamWindow):
 
     def launch_window(self, window: DataStreamWindow) -> None:
         calculating_thread = FuncThread(self.__raise_thread_with_window, window)
